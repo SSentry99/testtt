@@ -1,0 +1,88 @@
+.panel-vip {
+	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+	color: #fff;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	-webkit-filter: brightness(90%);
+	filter: brightness(90%);
+	min-height: 210px;
+	border: 0px;
+}
+
+	.panel-vip:hover {
+		-webkit-filter: brightness(120%);
+		filter: brightness(120%);
+	}
+
+	.panel-vip > .panel-heading {
+		padding: 20px 15px 0px 15px;
+	}
+
+		.panel-vip > .panel-heading > .panel-title {
+			font-weight: bold;
+			font-size: 20px;
+			text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+		}
+	
+	.vip-table-container {
+		background: rgba(0, 0, 0, 0.3);
+	}
+	
+		.vip-table tbody tr td {
+			text-align: center;
+		}
+	
+	/* VIP BRONZE STYLE */
+	.panel-vip.type1 {
+		background: #000000 url('../img/vip_panel_bg_1.jpg');
+		background-size: cover;
+	}
+		.panel-vip.type1 > .panel-heading > .panel-title {
+			color: #ffa06c;
+		}
+		
+	/* VIP SILVER STYLE */
+	.panel-vip.type2 {
+		background: #000000 url('../img/vip_panel_bg_2.jpg');
+		background-size: cover;
+	}
+		.panel-vip.type2 > .panel-heading > .panel-title {
+			color: #dcdcdc;
+		}
+		
+	/* VIP GOLD STYLE */
+	.panel-vip.type3 {
+		background: #000000 url('../img/vip_panel_bg_3.jpg');
+		background-size: cover;
+	}
+		.panel-vip.type3 > .panel-heading > .panel-title {
+			color: #ffbb38;
+		}
+		
+	/* VIP PLATINUM STYLE (IGCN) */
+	.panel-vip.type4 {
+		background: #000000 url('../img/vip_panel_bg_4.jpg');
+		background-size: cover;
+	}
+		.panel-vip.type4 > .panel-heading > .panel-title {
+			color: #63ffbb;
+		}
+		
+.btn-vip {
+    color: #ccc;
+    background-color: #333;
+	border-color: #ccc;
+	-moz-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    -webkit-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+}
+.btn-vip:active, .btn-vip:focus, .btn-vip:hover {
+    color: #000 !important;
+    background-color: #ccc !important;
+	border-color: #ccc !important;
+}
