@@ -2,7 +2,7 @@
 
 	//Site url - add / at the end, eg: http://metin2cms.cf/mt2/ IMPORTANT!!!
 
-	$site_url = "http://127.0.0.1/";
+	$site_url = "https://ssentry99.github.io/testtt/";
 
 	
 
